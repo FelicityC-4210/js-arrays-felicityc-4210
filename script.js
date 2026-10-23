@@ -60,7 +60,7 @@ for (let i = 0; i < 5; i++) {
 //         HINT: Start with an empty string. In the loop,
 //         add the number. If it's not the last number,
 //         also add ", " after it.
-numberString = "";
+let numberString = "";
 for (let i = 0; i < numbers.length; i++) {
     numberString = numberString + numbers[i];
 
@@ -73,6 +73,7 @@ console.log("Numbers: " + numberString);
 // STEP 6: Calculate the sum of all numbers.
 //         Use a for loop to add each number to a running total.
 //         Print: console.log("Sum: " + sum)
+let sum = 0;
 for (let i = 0; i < numbers.length; i++) {
     sum = sum + numbers[i];
 }
@@ -89,6 +90,7 @@ console.log("Average: " + average);
 //         A number is even if number % 2 equals 0.
 //         Use a for loop and an if statement.
 //         Print: console.log("Even count: " + count)
+let count = 0;
 for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 === 0) {
         count = count + 1;
